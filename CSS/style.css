@@ -72,6 +72,8 @@ body {
     width: 10rem;
 }
 
+
+/*===============NAVABAR===============*/
 #navbar
 {
     display: flex;
@@ -83,4 +85,31 @@ body {
 #navbar li 
 {
   padding: 10px 20px;
+  position: relative;
+}
+#navbar li a
+{
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #010101;
+  transition: 0.2s ease;
+}
+#navbar li a:hover,
+#navbar li a.active
+{
+  color: #07a150;
+
+}
+#navbar li a.active::after
+{
+  content: "";
+  width: 30%;
+  height: 3px;
+  position: absolute;
+  background: #07a150;
+  bottom: -1px;
+  left: 20px;
+
+
 }
