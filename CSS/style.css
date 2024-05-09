@@ -63,10 +63,12 @@ p {
   transition: 0.2s ease;
   border-radius: 4px;
 }
-.normal:hover{
+.normal:hover
+{
   background-color: #000;
   color: #fff;
 }
+
 body {
   width: 100%;
 }
