@@ -150,7 +150,11 @@ body {
   background-color: #07a150;
   padding: 10px 15px;
   border: none;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   font-size: 15px;
   font-weight: 500;
+  color: #fff;
 }
+
+/*--------------FEATURE section-------------*/
+
