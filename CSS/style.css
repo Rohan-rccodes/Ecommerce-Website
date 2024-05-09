@@ -62,8 +62,12 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px 80px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
-    background: #dfe3ff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    background: #e3e6f3;
+    z-index: 88;
+    position: sticky;
+    left: 0;
+    top: 0;
 }
 
 #header .logo
@@ -99,17 +103,54 @@ body {
 #navbar li a.active
 {
   color: #07a150;
+  transition: all 0.3s ease;
 
 }
-#navbar li a.active::after
+#navbar li a.active::after,
+#navbar li a:hover::after
 {
   content: "";
   width: 30%;
   height: 3px;
   position: absolute;
   background: #07a150;
-  bottom: -1px;
+  bottom: 1px;
   left: 20px;
+}
 
+/*------------------HERO SECTION------------------*/
 
+#hero
+{
+  background-image: url(../img/home.png);
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  /* background-position: center; */
+  background-position: top 25% right 0;
+  padding: 0 80px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#hero h4
+{
+  padding-bottom: 15px;
+}
+
+#hero h1
+{
+  color: #07a150;
+}
+
+#hero button
+{
+  background-color: #07a150;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 500;
 }
