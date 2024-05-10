@@ -51,23 +51,36 @@ p {
   margin: 40px 0;
 }
 
-.normal 
+/*===================BUTTON==========*/
+.whitebtn
 {
-  margin-top: 5px;
   font-size: 14px;
-  font-size: 600;
-  padding: 10px 20px;
+  font-weight: 600;
+  padding: 11px 20px;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid #fff;
+  outline: none;
+  transition: 0.2s ease;
+}
+
+.normalbtn 
+{
+  font-size: 14px;
+  font-weight: 600;
+  padding: 14px 24px;
   background-color: #fff;
   color: #000;
   cursor: pointer;
   border: none;
   outline: none;
   transition: 0.2s ease;
-  border-radius: 4px;
+  /* border-radius: 4px; */
 }
-.normal:hover
+.normalbtn:hover
 {
-  background-color: #000;
+  background-color: #07a150;
   color: #fff;
 }
 
@@ -386,9 +399,29 @@ body {
   justify-content: center;
   align-items: flex-start ;
   background-image: url(../img/banner/b17.jpg);
-  min-width: 580px;
+  min-width: 600px;
   height: 40vh;
   background-size: cover;
   background-position: center;
   padding: 30px;
+}
+
+#sm-banner h4
+{
+  color: #fff;
+}
+
+#sm-banner h2
+{
+  color: #fff;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+#sm-banner span
+{
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 15px;
 }
