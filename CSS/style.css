@@ -390,7 +390,7 @@ body {
   justify-content: center;
   align-items: flex-start ;
   background-image: url(../img/banner/b17.jpg);
-  min-width: 650px;
+  min-width: 665px;
   height: 40vh;
   background-size: cover;
   background-position: center;
@@ -429,6 +429,13 @@ body {
 
 /*==========Banner3==============*/
 
+#banner3
+{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0px 80px;
+}
 #banner3 .banner-box
 {
   display: flex;
@@ -436,13 +443,24 @@ body {
   justify-content: center;
   align-items: flex-start ;
   background-image: url(../img/banner/b7.jpg);
-  min-width: 30%;
+  min-width: 32%;
   height: 30vh;
   background-size: cover;
   background-position: center;
   padding: 20px;
   margin-bottom: 20px;
 }
+
+#banner3 .banner-box2
+{
+  background-image: url(../img/banner/b18.jpg);
+}
+
+#banner3 .banner-box3
+{
+  background-image: url(../img/banner/b4.jpg);
+}
+
 
 #banner3 .banner-box h2
 {
