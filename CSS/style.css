@@ -624,3 +624,10 @@ footer .copyright
   width: 100%;
   text-align: center;
 }
+
+/*=======================RESPONSIVE==================*/
+
+@media (max-width: 799px)
+{
+  
+}
