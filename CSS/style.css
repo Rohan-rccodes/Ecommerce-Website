@@ -594,3 +594,33 @@ footer .follow
 {
   margin-top: 20px;
 } 
+
+footer .follow i
+{
+  color: #465b52;
+  padding-right: 4px;
+  cursor: pointer;
+}
+
+footer .install .row img
+{
+  border: 1px solid #07a150;
+  border-radius: 5px;
+}
+
+footer .install img
+{
+  margin: 10px 0 15px 0;
+}
+
+footer .follow i:hover,
+footer a:hover
+{
+  color: #07a150;
+}
+
+footer .copyright
+{
+  width: 100%;
+  text-align: center;
+}
