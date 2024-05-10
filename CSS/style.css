@@ -51,6 +51,12 @@ p {
   margin: 40px 0;
 }
 
+.logo
+{
+    height: 2rem;
+    width: 10rem;
+}
+
 /*===================BUTTON==========*/
 .whitebtn
 {
@@ -104,8 +110,8 @@ body {
     left: 0;
     top: 0;
 }
-
-#header .logo
+ 
+.logo
 {
     height: 2rem;
     width: 10rem;
@@ -541,4 +547,11 @@ body {
 #newsletter  .newsform button:hover
 {
   transform: scale(1.01);
+}
+
+/*==========Footer============*/
+
+footer
+{
+  display: flex;
 }
