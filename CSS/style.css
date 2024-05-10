@@ -53,9 +53,10 @@ p {
 
 .normal 
 {
+  margin-top: 5px;
   font-size: 14px;
   font-size: 600;
-  padding: 15px 30px;
+  padding: 10px 20px;
   background-color: #fff;
   color: #000;
   cursor: pointer;
@@ -370,3 +371,24 @@ body {
   color: #ef3636;
 }
 
+/*---------section 4--------------*/
+
+
+#sm-banner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#sm-banner .banner-box
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start ;
+  background-image: url(../img/banner/b17.jpg);
+  min-width: 580px;
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+}
