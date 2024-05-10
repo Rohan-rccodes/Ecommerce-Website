@@ -70,8 +70,8 @@ p {
   font-size: 14px;
   font-weight: 600;
   padding: 14px 24px;
-  background-color: #fff;
-  color: #000;
+  background-color: #07a150;
+  color: #fff;
   cursor: pointer;
   border: none;
   outline: none;
@@ -80,8 +80,8 @@ p {
 }
 .normalbtn:hover
 {
-  background-color: #07a150;
-  color: #fff;
+  background-color: #fff;
+  color: #07a150;
 }
 
 body {
@@ -184,18 +184,9 @@ body {
 
 #hero button
 {
-  background-color: #07a150;
-  padding: 10px 15px;
-  border: none;
-  /* border-radius: 10px; */
-  font-size: 15px;
-  font-weight: 500;
-  color: #fff;
-  transition: all 0.2s ease;
+  box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.06);
 }
-#hero button:hover{
-  box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.3);
-}
+
 /*--------------FEATURE section-------------*/
 #feature
 {
@@ -381,7 +372,7 @@ body {
 }
 #banner h2 span 
 {
-  color: #ef3636;
+  color: #ff0a0a;
 }
 
 /*---------section 4--------------*/
@@ -399,13 +390,17 @@ body {
   justify-content: center;
   align-items: flex-start ;
   background-image: url(../img/banner/b17.jpg);
-  min-width: 600px;
+  min-width: 650px;
   height: 40vh;
   background-size: cover;
   background-position: center;
   padding: 30px;
 }
+#sm-banner .banner-box2
+{
+  background-image: url(../img/banner/b10.jpg);
 
+}
 #sm-banner h4
 {
   color: #fff;
@@ -424,4 +419,41 @@ body {
   font-size: 14px;
   font-weight: 500;
   padding-bottom: 15px;
+}
+
+#sm-banner .banner-box:hover button
+{
+  background: #07a150;
+  border: 1px solid #07a150;
+}
+
+/*==========Banner3==============*/
+
+#banner3 .banner-box
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start ;
+  background-image: url(../img/banner/b7.jpg);
+  min-width: 30%;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#banner3 .banner-box h2
+{
+  color: #fff;
+  font-weight: 900;
+  font-size: 22px;
+}
+
+#banner3 .banner-box h3
+{
+  color: #ff0a0a;
+  font-weight: 800;
+  font-size: 18px;
 }
