@@ -573,7 +573,7 @@ footer .logo
 
 footer h4
 {
-  font-size: 13px;
+  font-size: 14px;
   padding-bottom: 20px;
 }
 
@@ -589,3 +589,8 @@ footer a
   color: #111;
   margin-bottom: 10px;
 }
+
+footer .follow
+{
+  margin-top: 20px;
+} 
