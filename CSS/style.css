@@ -103,7 +103,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px 80px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06); */
     background: #e3e6f3;
     z-index: 88;
     position: sticky;
@@ -167,7 +167,7 @@ body {
 #hero
 {
   background-image: url(../img/home.png);
-  height: 90vh;
+  height: 100vh;
   width: 100%;
   background-size: cover;
   /* background-position: center; */
