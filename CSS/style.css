@@ -631,8 +631,7 @@ footer .copyright
 {
   #navbar
   {
-    display: f
-    lex;
+    display: flex;
     align-items: center;
   }
   
