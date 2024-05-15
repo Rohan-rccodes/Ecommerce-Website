@@ -25,5 +25,6 @@
 https://rohan-rccodes.github.io/Ecommerce-Website/
 
 ## Website Preview "
-<img scr="https://github.com/Rohan-rccodes/Ecommerce-Website/blob/main/img/Ecommerce.png11">
+<img scr="https://github.com/Rohan-rccodes/Ecommerce-Website/blob/main/img/Ecommerce.png">
+<img src="https://github.com/Rohan-rccodes/flowerPark/blob/main/img/FlowerPark-Template.png" alt="Neon Template" width="700">
 
