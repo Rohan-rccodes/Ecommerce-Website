@@ -24,3 +24,6 @@
 ## View Live Website: 
 https://rohan-rccodes.github.io/Ecommerce-Website/
 
+## Website Preview:
+<img src="https://github.com/Rohan-rccodes/Ecommerce-Website/blob/main/img/Ecommerce.png" alt="Neon Template" width="700">
+
