@@ -164,9 +164,11 @@ body {
 
 .mobile
 {
-  display: flex;
+  /* display: flex; */
+  display: none;
   align-items: center;
 }
+
 /*------------------HERO SECTION------------------*/
 
 #hero
@@ -657,6 +659,19 @@ footer .copyright
     margin-bottom: 25px;
   }
 
+  .mobile
+  {
+    display: flex;
+    /* display: none; */
+    align-items: center;
+  }
+  .mobile i
+  {
+    color: #010101;
+    font-size: 25px;
+    padding-left: 20px;
+  }
+  
 
 
 
