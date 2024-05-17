@@ -162,6 +162,11 @@ body {
   left: 20px;
 }
 
+.mobile
+{
+  display: flex;
+  align-items: center;
+}
 /*------------------HERO SECTION------------------*/
 
 #hero
@@ -638,7 +643,7 @@ footer .copyright
     align-items: flex-start;
     justify-content: flex-start;
     top: 0;
-    right: 0px;
+    right: -300px;
     height: 100vh;
     width: 300px;
     position: fixed;
@@ -650,7 +655,6 @@ footer .copyright
   #navbar li
   {
     margin-bottom: 25px;
-
   }
 
 
