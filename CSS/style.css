@@ -659,10 +659,14 @@ footer .copyright
     margin-bottom: 25px;
   }
 
+  #navbar .active
+  {
+    right: 0px;
+  }
+
   .mobile
   {
     display: flex;
-    /* display: none; */
     align-items: center;
   }
   .mobile i
@@ -672,10 +676,14 @@ footer .copyright
     padding-left: 20px;
   }
 
-  #navbar .active
-  {
-    right: 0px;
+  #close{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: #222;
+    font-size: 25px;
   }
+
 
 
 
