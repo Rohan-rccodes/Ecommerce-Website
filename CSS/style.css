@@ -755,6 +755,9 @@ footer .copyright
 
 }
 
+
+/*low end devices */ 
+
 @media (max-width: 477px) {
 
   #header{
@@ -774,6 +777,45 @@ footer .copyright
   h2{
     font-size: 30px;
   }
+
+  .section-p1{
+    padding: 20px;
+  }
+
+  #feature {
+    justify-content: space-between;
+  }
+
+  #feature .fe-box
+  {
+    width: 155px;
+    margin: 0 0 15px 0;
+  }
+
+  #product1 .pro{
+    width: 100%;
+  }
+
+  #banner {
+    height: 40vh;
+  }
+
+  #sm-banner .banner-box{
+    height: 40vh;
+  }
+
+  #sm-banner .banner-box2{
+    /* height: 40vh; */
+    margin-top: 20px;
+  }
+
+  #banner3
+  {
+    padding: 0 20px;
+  }
+
+  #banner3
+
 
 }
 
