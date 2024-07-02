@@ -909,6 +909,7 @@ footer .copyright
 }
 .small-img-col
 {
+  display: flex;
   flex-basis: 24%;
   cursor: pointer;
 }
