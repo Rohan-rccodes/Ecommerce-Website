@@ -895,3 +895,14 @@ footer .copyright
 /***********************************************/
 
 /* ------------------S PRODUCT PAGE ------------*/
+
+#prodetails .single-pro-image
+{
+  width: 40%;
+  margin-right: 50px;
+}
+
+.small-img-group
+{
+  
+}
